@@ -1,14 +1,14 @@
 # FireHole
 
-[英文](http://172.17.31.5/Sumner/firehole/blob/master/README.md) | [docker]()
+[英文](https://github.com/xSumner/firehole/README.md) | [docker]()
 
 
 
 FireHole 是一个为烽火IAO的数据分析师量身定做的工具包。
 
 - 网址（内网）: 
-- 项目地址： http://172.17.31.5/Sumner/firehole
-- 上报Bug: http://172.17.31.5/Sumner/firehole/issues
+- 项目地址：https://github.com/xSumner/firehole
+- 上报Bug：https://github.com/xSumner/firehole/issues
 
 
 

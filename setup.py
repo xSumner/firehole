@@ -27,7 +27,7 @@ with open(path.join(DIR, 'README.md'), encoding='UTF-8') as f:
     README = f.read()
 
 
-VERSION = "0.4.0"
+VERSION = "0.4.1"
 
 packages = ["firehole",
             "firehole.algorithms",

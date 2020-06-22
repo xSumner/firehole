@@ -1,14 +1,12 @@
-# FireHole
+# FireHole::fire::hole:
 
-[中文](http://172.17.31.5/Sumner/firehole/blob/master/doc/doc_zh/README.md) | docker
-
-
+[中文](https://github.com/xSumner/firehole/tree/master/doc/doc_zh/README.md) | docker
 
 FireHole is a Python package customized for data analysts.
 
 - Website (intranet): 
-- Source: http://172.17.31.5/Sumner/firehole
-- Bug reports: http://172.17.31.5/Sumner/firehole/issues
+- Source: [https://github.com/xSumner/firehole]()
+- Bug reports: [https://github.com/xSumner/firehole/issues]()
 
 
 
