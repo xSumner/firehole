@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""ahp.methods.geometric
+
+This module contains the class implementing the geometric priority estimation method.
+"""
+
+import numpy as np
+
+from firehole.algorithms.ahp.methods import Method
+
+
+class GeometricMethod(Method):
+    """Geometric priority estimation method
+    """
+
+    def estimate(self, preference_matrix):
+        super()._check_matrix(preference_matrix)
+        height = preference_matrix.shape[1]
+        vec = np.prod(preference_matrix, axis=1) ** 1/height
+        return vec / np.sum(vec)

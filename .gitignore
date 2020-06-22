@@ -1,0 +1,14 @@
+.cache/*
+.idea/*
+build/*
+dist/*
+firehole.egg-info/*
+*.pyc
+__pycache_
+*~
+.DS_Store
+download version/*
+
+
+# Other documents
+需求提取/*
