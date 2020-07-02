@@ -4,7 +4,7 @@
 
 
 
-FireHole 是一个为烽火IAO的数据分析师量身定做的工具包。
+FireHole 是一个为数据分析师量身定做的工具包。
 
 - 网址（内网）: 
 - 项目地址：https://github.com/xSumner/firehole
