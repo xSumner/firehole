@@ -1,4 +1,4 @@
-# FireHole::fire::hole:
+# FireHole  :fire::hole:
 
 [中文](https://github.com/xSumner/firehole/tree/master/doc/doc_zh/README.md) | docker
 
@@ -499,5 +499,46 @@ print(index.get_near_dups(s1))
 
 index.add("4", s1)
 print(index.get_near_dups(s1))
+```
+
+
+
+### Format Converter
+
+#### 1. ID converter (between 15 & 18 digits)
+
+Convert single ID number between 15 digits and 18 digits format:
+
+```python
+import firehole as fh
+
+converter = fh.ConvertID()
+
+# ID number of 18 digits
+test_id1 = "130701199310302288"
+# ID number of 15 digits
+test_id2 = "320311770706001"
+
+# convert from 15 digits to 18 digits
+new_18 = converter.up_to_eighteen(test_id2)
+print("Convered to 18 digits: ", new_18)
+
+# convert from 18 digits to 15 digits
+new_15 = converter.down_to_fifteen(test_id1)
+print("Convered to 15 digits: ", new_15)
+```
+
+Covert an ID list:
+
+```python
+import firehole as fh
+
+converter = fh.ConvertID()
+# ID list of 18 digits
+test_list = ["130701199310302288", "52030219891209794X"]
+
+# use map funciton
+new_15_list = list(map(converter.down_to_fifteen, test_list))
+print(new_15_list)
 ```
 

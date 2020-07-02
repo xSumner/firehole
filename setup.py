@@ -27,7 +27,7 @@ with open(path.join(DIR, 'README.md'), encoding='UTF-8') as f:
     README = f.read()
 
 
-VERSION = "0.4.1"
+VERSION = "0.4.2"
 
 packages = ["firehole",
             "firehole.algorithms",
@@ -35,7 +35,8 @@ packages = ["firehole",
             "firehole.algorithms.ahp.hierarchy",
             "firehole.algorithms.ahp.methods",
             "firehole.algorithms.flashtext",
-            "firehole.algorithms.similarity"]
+            "firehole.algorithms.similarity",
+            "firehole.algorithms.convert"]
 
 # add the tests
 package_data = {

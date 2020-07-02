@@ -11,5 +11,7 @@ download version/*
 logo/*
 __pycache__
 
+raw_backup/*
+
 # Other documents
 需求提取/*

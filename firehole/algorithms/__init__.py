@@ -6,11 +6,13 @@ from firehole.algorithms.flashtext import *
 from firehole.algorithms.weight import *
 from firehole.algorithms.ahp import *
 from firehole.algorithms.similarity import *
+from firehole.algorithms.convert import *
 
 import firehole.algorithms.flashtext
 import firehole.algorithms.weight
 import firehole.algorithms.ahp
 import firehole.algorithms.similarity
+import firehole.algorithms.convert
 
 # Need to test with Numpy, when available
 # weight
@@ -23,3 +25,6 @@ from firehole.algorithms.flashtext import KeywordProcessor
 # calculate the text similarity
 from firehole.algorithms.similarity import (BM25Plus, BM25L, BM25Okapi)
 from firehole.algorithms.similarity import (Simhash, SimhashIndex)
+
+# convert between different format
+from firehole.algorithms.convert import (convertID)
