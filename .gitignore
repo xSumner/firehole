@@ -9,7 +9,7 @@ __pycache_
 .DS_Store
 download version/*
 logo/*
-
+__pycache__
 
 # Other documents
 需求提取/*
